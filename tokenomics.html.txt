@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tokenomics | Knowledge Share KST</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">Knowledge Share</div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="roadmap.html">Roadmap</a>
+            <a href="#" class="cta-button primary">Launch App (2026 Q4)</a>
+        </nav>
+    </header>
+
+    <section id="tokenomics" class="section-padding">
+        <h1 class="section-title">KST Tokenomics: Built for Stability and Growth</h1>
+        
+        <p class="hero-vision" style="margin-bottom: 50px;">
+            $KST$ is the native utility and governance token of the Knowledge Share Platform. It is deflationary by design, ensuring long-term value for contributors and holders.
+        </p>
+
+        <div style="max-width: 700px; margin: 0 auto;">
+            <h3 style="color: var(--color-secondary); text-align: center;">Supply and Metrics</h3>
+            <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+                <tr>
+                    <th style="padding: 12px; border: 1px solid #333; text-align: left; background-color: var(--color-card);">Metric</th>
+                    <th style="padding: 12px; border: 1px solid #333; text-align: left; background-color: var(--color-card);">Value</th>
+                </tr>
+                <tr>
+                    <td style="padding: 12px; border: 1px solid #333;">Token Symbol</td>
+                    <td style="padding: 12px; border: 1px solid #333;">$KST$</td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px; border: 1px solid #333;">Chain</td>
+                    <td style="padding: 12px; border: 1px solid #333;">Base Mainnet (Layer 2)</td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px; border: 1px solid #333;">Total Max Supply</td>
+                    <td style="padding: 12px; border: 1px solid #333;">8,000,000,000 KST (8 Billion)</td>
+                </tr>
+            </table>
+        </div>
+
+        <h3 class="section-title" style="margin-top: 60px;">Initial Allocation Breakdown</h3>
+        
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>48% Community Reserve (PoK Pool)</h3>
+                <p>Dedicated to rewarding contributors via the Mind Share Score and ensuring future growth. Controlled weekly release.</p>
+            </div>
+            <div class="feature-card">
+                <h3>28% Burning Pool (Deflationary)</h3>
+                <p>This portion is permanently removed from circulation at launch to guarantee long-term scarcity and value preservation.</p>
+            </div>
+            <div class="feature-card">
+                <h3>17% Investors</h3>
+                <p>Locked by smart contracts with a controlled vesting schedule (16% TGE, 2 Year Vesting) to prevent immediate market dumping.</p>
+            </div>
+            <div class="feature-card">
+                <h3>6% Team & Advisors</h3>
+                <p>Locked by smart contracts for 4 years (45% TGE, 4 Year Vesting) to ensure long-term commitment to the project's success.</p>
+            </div>
+        </div>
+
+        <div style="max-width: 800px; margin: 60px auto; padding: 20px; border: 1px dashed var(--color-secondary); text-align: center; border-radius: 8px;">
+            <h3 style="color: var(--color-secondary);">Deflationary Mechanism</h3>
+            <p>Weekly rewards are limited to **75,000 KST**. PoK rewards are paid out as **25% unlocked** instantly and the remaining **75% locked** for 90 days, protecting token stability from daily market fluctuations.</p>
+        </div>
+
+    </section>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Knowledge Share Decentralized Platform. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

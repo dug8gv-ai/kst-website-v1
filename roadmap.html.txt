@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roadmap | Knowledge Share Platform</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+        /* Roadmap specific styling (Timeline look) */
+        .timeline-container {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+            padding-bottom: 50px;
+        }
+
+        /* Timeline ki central line */
+        .timeline-container::after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            background-color: var(--color-card);
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -3px;
+        }
+
+        .timeline-item {
+            padding: 10px 40px;
+            position: relative;
+            background-color: inherit;
+            width: 40%;
+        }
+
+        /* Right side items */
+        .timeline-item.right {
+            left: 50%;
+        }
+
+        /* Left side items */
+        .timeline-item.left {
+            left: 0;
+        }
+
+        /* Timeline ke dots */
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            right: -13px;
+            background-color: var(--color-primary);
+            border: 4px solid var(--color-background);
+            top: 15px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        /* Left side dots ki position */
+        .timeline-item.left::after {
+            left: auto;
+            right: -12px; 
+            left: 48.5%; /* Center alignment */
+            background-color: var(--color-secondary);
+        }
+        
+        /* Box containing the content */
+        .timeline-content {
+            padding: 20px 30px;
+            background-color: var(--color-card);
+            position: relative;
+            border-radius: 6px;
+        }
+        
+        .timeline-content h4 {
+            color: var(--color-secondary);
+        }
+    </style>
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">Knowledge Share</div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="tokenomics.html">Tokenomics</a>
+            <a href="#" class="cta-button primary">Launch App (2026 Q4)</a>
+        </nav>
+    </header>
+
+    <section id="roadmap" class="section-padding">
+        <h1 class="section-title">Our Path to Decentralization: The KST Roadmap</h1>
+        <p class="hero-vision" style="margin-bottom: 50px;">
+            Our 5-phase plan is designed to ensure stability, security, and sustained growth before the final token launch in Q4 2026.
+        </p>
+
+        <div class="timeline-container">
+            
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h4>Phase 1: Foundation (2024 Q4)</h4>
+                    <p><strong>Focus: Transparency & Code</strong></p>
+                    <ul>
+                        <li>Smart Contract Drafting: Finalizing simple KST Token Code.</li>
+                        <li>Website & Whitepaper Launch: Making all Tokenomics and Roadmap public.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h4>Phase 2: Platform Core (2025 Q1 - Q3)</h4>
+                    <p><strong>Focus: Development</strong></p>
+                    <ul>
+                        <li>Platform Architecture: Designing and coding the Web2/Web3 application interface.</li>
+                        <li>Database & API Setup: Building the backend for Posts, Users, and Content.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h4>Phase 3: Proof-of-Knowledge Logic (2025 Q4)</h4>
+                    <p><strong>Focus: Token Logic</strong></p>
+                    <ul>
+                        <li>Mind Share Score Logic: Implementing the formula (Likes x1, Comments x5) on the backend.</li>
+                        <li>Reward Vesting Contract: Building the smart contracts for the 25%/75% reward lock.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h4>Phase 4: Security & Testing (2026 Q1 - Q3)</h4>
+                    <p><strong>Focus: Security & Audit</strong></p>
+                    <ul>
+                        <li>External Security Audit: Getting KST Token and Vesting Contracts audited by a top firm.</li>
+                        <li>Private Beta Testnet Launch: Testing the platform with a small community on Base Sepolia.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h4 style="color: red;">Phase 5: Launch & Governance (2026 Q4)</h4>
+                    <p><strong>Focus: Launch & Growth</strong></p>
+                    <ul>
+                        <li>KST Token Mainnet Deployment: Deploying the audited KST Token on Base Mainnet.</li>
+                        <li>Initial Exchange Listing (IEO/DEX).</li>
+                        <li>DAO Governance Rollout: Transferring platform control to the community.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Knowledge Share Decentralized Platform. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
