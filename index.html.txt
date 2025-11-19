@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Share | Decentralized PoK Platform</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <div class="rain"></div> 
+    <header class="main-header">
+        ```
+
+    <header class="main-header">
+        <div class="logo">Knowledge Share</div>
+        <nav class="nav-links">
+            <a href="tokenomics.html">Tokenomics</a>
+            <a href="roadmap.html">Roadmap</a>
+            <a href="#" class="cta-button primary">Launch App (2026 Q4)</a>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-section">
+<div class="hero-cta-group">
+        <a href="#" class="cta-button primary">Read Whitepaper</a>
+        <a href="#" class="cta-button secondary">Join Community</a>
+    </div>
+
+    <div class="project-image-container">
+        <img src="https://via.placeholder.com/800x400/1E1E1E/EAEAEA?text=Amazing+Decentralized+Project+View" alt="Knowledge Share Platform Engagement" class="project-visual">
+    </div>
+    </section>
+        <h1 class="hero-tagline">ज्ञान की शक्ति को विकेंद्रीकृत करना। PoK: सीखो, योगदान दो, कमाओ।</h1>
+        <p class="hero-vision">
+            Knowledge Share: The next-generation decentralized platform built on Base L2 that rewards you directly for sharing verified, high-quality Web3 and Blockchain expertise.
+        </p>
+        <div class="hero-cta-group">
+            <a href="#" class="cta-button primary">Read Whitepaper</a>
+            <a href="#" class="cta-button secondary">Join Community</a>
+        </div>
+    </section>
+
+    <section id="features" class="section-padding">
+        <h2 class="section-title">How We Reward True Knowledge (PoK)</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>Mind Share Score</h3>
+                <p>Your contributions are measured by a transparent, on-chain formula. The higher your score, the larger your share of the weekly rewards.</p>
+            </div>
+            <div class="feature-card">
+                <h3>75,000 KST Weekly Pool</h3>
+                <p>A controlled, scarcity-driven reward pool distributed weekly to maintain long-term token stability and value for contributors.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Built on Base L2</h3>
+                <p>We leverage Base's low fees and fast finality to ensure a seamless and scalable experience for every transaction and reward payout.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Knowledge Share Decentralized Platform. All Rights Reserved.</p>
+    </footer>
+<script>
+        const rainContainer = document.querySelector('.rain');
+        const totalDrops = 100; // Rain drops ki tadaad
+
+        for (let i = 0; i < totalDrops; i++) {
+            const drop = document.createElement('span');
+            drop.style.left = `${Math.random() * 100}%`;
+            drop.style.animationDelay = `${Math.random() * 5}s`; // Start hone mein delay
+            drop.style.animationDuration = `${5 + Math.random() * 3}s`; // Speed control
+            rainContainer.appendChild(drop);
+        }
+    </script>
+</body>
+</html>
+</body>
+</html>
